@@ -1,0 +1,27 @@
+/* BASIC RESET */
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+
+body{
+background-color:black;}
+
+
+#wrapper { width:800px; margin:40px auto; }
+
+
+#container { list-style:none; width:500px; height:500px; margin:100px auto;
+	-webkit-perspective: 1000; 
+}
+
+#container li { height:5px; width:500px; }
+#container li div { position:absolute; height:5px; width:500px;
+	-webkit-animation-duration: 4s; 
+	-webkit-transform-style: preserve-3d; 
+	-webkit-animation-fill-mode: forwards; 
+}
+
+#container li div:nth-child(1) { background-image:url(""); } 
+#container li div:nth-child(2) { background-image:url("../images/logo1.png");
+	-webkit-backface-visibility: hidden; 
+
+	
+}
